@@ -5,7 +5,6 @@ import HtmlWebpackPlugin from "html-webpack-plugin";
 module.exports = {
   entry: path.join(__dirname,'src','index.js'),
   output: {
-    path: "build/",
     filename: 'index.bundle.js'
   },
   mode: process.env.NODE_ENV || 'development',
